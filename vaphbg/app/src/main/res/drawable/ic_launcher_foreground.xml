@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Blueprint Compass Ring / Aesthetic detail -->
+    <path
+        android:strokeColor="#00B4D8"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,12 A42,42 0 1,1 53.9,12" />
+
+    <path
+        android:strokeColor="#00B4D8"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:strokeLineJoin="round"
+        android:pathData="M54,2v10M54,96v10M2,54h10M96,54h10" />
+
+    <!-- Solid house contour drawing representing the blueprint draft -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 L18,54 L28,54 L28,88 L80,88 L80,54 L90,54 Z" />
+
+    <!-- Inset lines detailing doors and rooms inside -->
+    <path
+        android:strokeColor="#0D1B2A"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:strokeLineJoin="round"
+        android:pathData="M44,88V68h20v20 M38,62h8v8h-8z M62,62h8v8h-8z" />
+
+    <!-- Compass pointer arrow -->
+    <path
+        android:fillColor="#00B4D8"
+        android:pathData="M54,32 L58,40 L54,38 L50,40 Z" />
+
+</vector>

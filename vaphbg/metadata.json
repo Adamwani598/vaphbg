@@ -1,0 +1,6 @@
+{
+  "name": "VAPHBG",
+  "description": "Generate preliminary 2D residential floor plans and construction cost estimations from sketch photos and walkthrough videos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
